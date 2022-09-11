@@ -1,5 +1,7 @@
 # (Dataset Exploration Title)
-## by (your name here)
+## by F Njakai 
+### [Github](https://www.github.com/brk-a)
+### [LinkedIn](https://www.linkedin.com/in/francis-n-6b61b2a0)
 
 
 ## Dataset
