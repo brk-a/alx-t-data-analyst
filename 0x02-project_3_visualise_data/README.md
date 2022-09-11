@@ -1,4 +1,4 @@
-# (Dataset Exploration Title)
+# Exploration and Analysis of Loans Data from Prosper
 
 ## by F Njakai 
 
@@ -8,7 +8,7 @@
 
 ## Dataset
 
-[Prosper](https://www.prosper.com/) is a peer-to-peer lending marketplace in the US. Borrowers apply online for a fixed-rate, fixed-term loan between USD 2,000.00 and USD 40,000.00. Individuals and institutions, Sequoia Capital for example, invest in the loans. Prosper handles all loan servicing on behalf of the borrowers and investors.
+[Prosper](https://www.prosper.com/) is a peer-to-peer lending marketplace in the US. Borrowers apply online for a fixed-rate, fixed-term loan between USD 2,000.00 and USD 40,000.00. Individuals, like you and I, and institutions, Sequoia Capital for example, invest in said loans. Prosper handles all loan servicing on behalf of the borrowers and investors.
 
 The data set to be explored has 113,937 observations (loans, if you like) and 81 variables; detailed information on the variables can be found [here](https://docs.google.com/spreadsheets/d/1gDyi_L4UvIrLTEC6Wri5nbaMmkGmLQBk-Yx3z0XDEtI/edit#gid=0).
 
