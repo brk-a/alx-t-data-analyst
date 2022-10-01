@@ -14096,11 +14096,11 @@ that when the notebook is rendered as http slides, those cells won't show up.</p
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Use this command if you are running this file in local</span>
-<span class="o">!</span>jupyter nbconvert &lt;Part_2_slide_deck&gt;.ipynb --to slides --post serve --no-input --no-prompt
+<span class="o">!</span>jupyter nbconvert Part_2_slide_deck.ipynb --to slides --post serve --no-input --no-prompt
 </pre></div>
 
     </div>
@@ -14117,7 +14117,27 @@ that when the notebook is rendered as http slides, those cells won't show up.</p
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/bin/sh: 1: cannot open Part_2_slide_deck: No such file
+<pre>[NbConvertApp] Converting notebook Part_2_slide_deck.ipynb to slides
+[NbConvertApp] Writing 797610 bytes to Part_2_slide_deck.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0
+Serving your slides at http://127.0.0.1:8000/Part_2_slide_deck.slides.html
+Use Control-C to stop this server
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: x-www-browser: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: firefox: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: iceweasel: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: seamonkey: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: mozilla: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: epiphany: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: konqueror: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: chromium-browser: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: google-chrome: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: www-browser: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: links2: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: elinks: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: links: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: lynx: not found
+/usr/bin/xdg-open: 778: /usr/bin/xdg-open: w3m: not found
+xdg-open: no method available for opening &#39;http://127.0.0.1:8000/Part_2_slide_deck.slides.html&#39;
 </pre>
 </div>
 </div>
@@ -14162,7 +14182,7 @@ The command abobve will ZIP every file present in your /home/workspace directory
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">subprocess</span> <span class="k">import</span> <span class="n">call</span>
@@ -14170,26 +14190,6 @@ The command abobve will ZIP every file present in your /home/workspace directory
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[22]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>255</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
